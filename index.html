@@ -10,6 +10,29 @@
   </style>
   </head>
   <body>
+      <div class="nav-container">
+      <span id="menu-icon"></span>
+
+      <!-- OR -->
+      <div class="nav-content">
+      </div>
+
+      <div id="navside" class="sidenav">
+        <a href="#" class="current">Home</a>
+        <a href="#">About Me</a>
+        <a href="#C4">Activity</a>
+        <a href="#">Spacer</a>
+        <a href="#">Spacer</a>
+      </div>
+      <script>
+        var navside = document.getElementById('navside');
+        document.getElementById("menu-icon").onclick = function() { navside.style.width = "250px"; }
+        document.addEventListener("click", function(event) {
+          if (event.target.closest(".nav-container")) return;
+          navside.style.width = "0";
+        });
+      </script>
+      </div>
     <section class="fullscreen">
       <div class="background" style="background-image: url('assets/images/background.jpg');"></div>
       <div class="center-object">
@@ -25,7 +48,6 @@
           <a href="https://twitter.com/L0renz_H" class="btn belize-hole-flat hover" target="_blank">Twitter</a>
           <a href="mailto:4c6f72656e7a@pm.me" class="btn pomegranate-flat hover" target="_blank">Email</a>
         </div>
-        <hr>
         <div class="table-container table-center">
           <table class="white black-text">
             <thead>
@@ -54,6 +76,13 @@
             </tbody>
           </table>
         </div>
+      </div>
+      <hr>
+      <div id="C4" class="box-container black">
+        <h1 style="text-align:center">Activity</h1>
+        <p></p>
+        <figure class=half-width><embed src="https://wakatime.com/share/@Lorenz_H/b37a527c-1fca-40db-b7e4-8199d6b0c3e2.svg"></embed></figure>
+        <figure class=half-width><embed src="https://wakatime.com/share/@Lorenz_H/4f641799-fe49-4ce9-95fc-84f0449b59a7.svg"></embed></figure>
         <hr>
       </div>
     </section>
