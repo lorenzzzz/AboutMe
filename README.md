@@ -1,6 +1,1 @@
-  lorenzzzz.github.io/AboutMe/
-Also i dont know anything about this
-
-Open-source
-
-Just download and do whatever you want with it, I don't really mind, but please give credits, thanks 
+This is a simple about me page using Modestacss 2.0 you can do whatever you want with this site copy it etc just follow the license of Modestacss
