@@ -2,3 +2,6 @@ html,
 body {
     font-family: 'Roboto', sans-serif;
 }
+.float-right {
+  float: right;
+}
