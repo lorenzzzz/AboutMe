@@ -1,4 +1,20 @@
 html,
+/* Enter Font here */
 body {
     font-family: 'Roboto', sans-serif;
+}
+/* Makes something float */
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+/* Sticky footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
