@@ -1,7 +1,9 @@
 html,
+/* Enter Font here */
 body {
     font-family: 'Roboto', sans-serif;
 }
+/* Makes something float */
 .float-right {
   float: right;
 }
